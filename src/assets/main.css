@@ -1,0 +1,18 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  padding: 0rem;
+  font-weight: normal;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #121212;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
